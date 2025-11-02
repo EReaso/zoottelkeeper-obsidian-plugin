@@ -448,7 +448,7 @@ class ZoottelkeeperPluginSettingTab extends PluginSettingTab {
 		new Setting(containerEl)
 			.setName('Index Prefix')
 			.setDesc(
-				'Per default the file is named after your folder, but you can prefix it here.'
+				'Per default the file is named after your folder, but you can prefix it here. WARNING: If you blank this setting, any files named the same as their parent folder will be overwritten!'
 			)
 			.addText((text) =>
 				text
